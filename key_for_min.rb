@@ -7,5 +7,6 @@ def key_for_min_value(name_hash)
       return NIL
     else
       key = key.sort_by {|k, v| v}
+      key
   end
 end
