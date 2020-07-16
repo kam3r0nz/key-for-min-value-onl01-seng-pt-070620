@@ -8,8 +8,8 @@ def key_for_min_value(name_hash)
     if low_value == nil
       low_value = value
       low_key = key
-      key = key.sort_by {|k, v| v}
-      key[0]
+    else
+      
   end
 end
 low_key
