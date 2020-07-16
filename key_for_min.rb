@@ -6,6 +6,6 @@ def key_for_min_value(name_hash)
     if key == {}
       return NIL
     else
-      key = key.sort_by {k
+      key = key.sort_by {|k, v| v}
   end
 end
