@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   low_key = nil
   name_hash.each do |key, value|
     if low_value == 0 || value < low_value
-      return NIL
+      low_value = value
     else
       key = key.sort_by {|k, v| v}
       key[0]
